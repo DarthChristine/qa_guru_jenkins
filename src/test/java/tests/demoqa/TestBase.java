@@ -14,5 +14,6 @@ public class TestBase {
 
         Configuration.baseUrl = "https://demoqa.com"; //один раз прописали сайт, который будет повторяться
         Configuration.browserSize = "1920x1080";
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub"; //добавили селеноид для удаленного запуска на нем тестов
     }
 }
